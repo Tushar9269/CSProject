@@ -7,7 +7,7 @@ export default function MenuItem() {
             <h4 className="font-semibold text-xl my-3">Biryani</h4>
             <p className="text-gray-500 text-sm">
                 Biryani is a fragrant mix of spiced rice and tender meat or veggies. Each bite is a burst of flavor, crafted to perfection and served hot for your delight.            </p>
-            <button className="mt-4 bg-primary text-white rounded-full px-8 py-2">Add to cart $12</button>
+            <button className="mt-4 bg-primary text-white rounded-full px-8 py-2">Add to cart ₹120</button>
         </div>
     );
 }

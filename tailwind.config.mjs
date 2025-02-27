@@ -1,3 +1,5 @@
+import { Didact_Gothic } from 'next/font/google';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,6 +11,10 @@ export default {
     extend: {
       colors: {
         primary: '#f13a01'
+      },
+      fontFamily: {
+        cardo: ["Cardo", "serif"],
+        Didact_Gothic: ["Didact Gothic", "sans-serif"]
       },
     },
   },
